@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.main {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+}
+body {
+  min-height: 1000px;
+}
+p {
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+header {
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: auto;
+  width: 70%;
+  padding: 10px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+header .logo {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+header .navigation {
+  position: relative;
+  display: flex;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 20px;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(img/cake.jpg);
+  background-size: cover;
+}
+.banner .content {
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h2 {
+  font-size: 5em;
+  color: rgb(0, 0, 0);
+}
+.banner .content p {
+  font-size: 2em;
+  color: rgb(2, 2, 2);
+}
+.btn {
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  background: #ffffff;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.3s;
+}
+.btn:hover {
+  letter-spacing: 4px;
+}
